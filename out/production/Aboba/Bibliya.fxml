@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Bibliya">
+   <children>
+      <Button fx:id="SetBook" layoutX="14.0" layoutY="336.0" mnemonicParsing="false" onAction="#EnterSet" prefHeight="26.0" prefWidth="144.0" text="Выдача книг">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="Givebook" layoutX="228.0" layoutY="309.0" mnemonicParsing="false" onAction="#EnterGive" prefHeight="26.0" prefWidth="144.0" text="Добавление книг">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="RegReader" layoutX="442.0" layoutY="336.0" mnemonicParsing="false" onAction="#EnterReader" prefHeight="26.0" prefWidth="144.0" text="Регистрация читателя">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="DelBook" layoutX="14.0" layoutY="282.0" mnemonicParsing="false" onAction="#EnterDel" prefHeight="26.0" prefWidth="144.0" text="Списание книг">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackBook" layoutX="442.0" layoutY="282.0" mnemonicParsing="false" onAction="#EnterBack" prefHeight="26.0" prefWidth="144.0" text="Возврат книг">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

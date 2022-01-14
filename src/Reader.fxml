@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Reader">
+   <children>
+      <TextField fx:id="ReaderNAME" layoutX="226.0" layoutY="146.0" promptText="ФИО" />
+      <TextField fx:id="ReaderADDRESS" layoutX="226.0" layoutY="236.0" promptText="Адрес" />
+      <TextField fx:id="ReaderPHONE" layoutX="226.0" layoutY="281.0" promptText="Телефон" />
+      <DatePicker fx:id="ReaderDATA" layoutX="225.0" layoutY="191.0" prefHeight="26.0" prefWidth="150.0" promptText="Дата Рождения" />
+      <Button fx:id="Enter" layoutX="243.0" layoutY="347.0" mnemonicParsing="false" onAction="#Action" prefHeight="26.0" prefWidth="114.0" text="добавить">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+      <Button fx:id="Back" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#Exit" text="Назад">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
